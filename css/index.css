@@ -23,8 +23,12 @@ body {
 .inp {
   margin-top: 6px;
   margin-bottom: 13px;
-  width: 320px;
+  width: 9000px;
   padding: 20px;
   line-height: 30px;
   /* border: 2px solid #e0e0e0; */
+}
+
+.mgt-b>li {
+  margin-bottom: 25px;
 }
