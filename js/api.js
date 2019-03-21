@@ -19,19 +19,24 @@ function pingPServer() {
 }
 
 function pingPClient() {
-  // var http = require("http");
-  // http.get("https://modern-headshots.herokuapp.com");
-  fetch('https://modern-headshots.herokuapp.com/', { 
+  fetch('https://modern-headshots.herokuapp.com/index.html', { 
     mode: 'no-cors'
-    // ,
-    // headers:{
-    //   'Content-Type': 'application/json'
-    // }
   })
-  // .then(response => response.json())
-  .then(data => console.log("result of photo client: ", data))
+  .then(data => {})
+  // .then(data => console.log("result of photo client: ", data))
   .catch(err => console.log(err));
 }
+
+
+// function pingPClient() {
+//   fetch('https://quiet-crag-70668.herokuapp.com/index.html', { 
+//     mode: 'no-cors'
+//   })
+//   .then(data => console.log("result of photo client: ", data))
+//   .catch(err => console.log(err));
+// }
+
+
 
 function pingDyno() {
   pingAServer(); 
