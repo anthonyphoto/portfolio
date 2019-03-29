@@ -8,6 +8,14 @@ function pingAServer() {
       .catch(err => console.error(err));
 }
 
+function pingAClient() {
+  fetch('https://applicant-tracker-react.herokuapp.com/index.html', { 
+    mode: 'no-cors'
+  })
+  .then(data => {})
+  // .then(data => console.log("result of app-tracker client: ", data))
+  .catch(err => console.log(err));
+}
 
 
 function pingPServer() {
@@ -36,10 +44,11 @@ function pingPClient() {
 //   .catch(err => console.log(err));
 // }
 
-
+https://applicant-tracker-react.herokuapp.com/
 
 function pingDyno() {
   pingAServer(); 
+  pingAClient();
   pingPServer(); 
   pingPClient();
 
