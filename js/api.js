@@ -1,4 +1,3 @@
-'use strict';
 
 function pingAServer() {
     fetch('https://applicant-track.herokuapp.com/resumes')
@@ -35,19 +34,9 @@ function pingPClient() {
   .catch(err => console.log(err));
 }
 
-
-// function pingPClient() {
-//   fetch('https://quiet-crag-70668.herokuapp.com/index.html', { 
-//     mode: 'no-cors'
-//   })
-//   .then(data => console.log("result of photo client: ", data))
-//   .catch(err => console.log(err));
-// }
-
 function pingDyno() {
   pingAServer(); 
   pingAClient();
   pingPServer(); 
   pingPClient();
-
 }
