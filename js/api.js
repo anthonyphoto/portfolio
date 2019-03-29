@@ -44,8 +44,6 @@ function pingPClient() {
 //   .catch(err => console.log(err));
 // }
 
-https://applicant-tracker-react.herokuapp.com/
-
 function pingDyno() {
   pingAServer(); 
   pingAClient();
