@@ -90,7 +90,9 @@ body {
 /* screenshot image */
 .sample {
   width: 100%;
-  border: 1px solid lightgray;
+  border: 1px solid #BBB;
+  box-shadow: 0px 0px 10px #BBB;
+  /* border: 3px solid #0272b6; */
 }
 
 .em {
@@ -114,9 +116,7 @@ ul.list li {
 ul.list li::before {
     color: #006b6e;  
     content: ">"; 
-    /* font-size: 1em;  */
     padding-right: 0.4em; 
-    /* position: relative; */
     top: 0em; 
 }
 
@@ -190,6 +190,16 @@ footer {
   line-height: 6rem;
 }
 
+.fi {
+  -webkit-animation: fadein 2s; 
+          animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 
 @media only screen and (max-width: 640px) {
   .navbar li {
@@ -254,7 +264,7 @@ footer {
     margin-left: 0rem;
     margin-right: 1%;
   }
-  
+
   
 footer {
   line-height: 3rem;
