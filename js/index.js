@@ -1,14 +1,14 @@
 'use strict';
-// $(".jumper").on("click", function( e ) {
+$(".jumper").on("click", function( e ) {
     
-//   e.preventDefault();
+  e.preventDefault();
 
-//   $("body, html").animate({ 
-//       scrollTop: $( $(this).attr('href') ).offset().top 
-//   }, 600);
+  $("body, html").animate({ 
+      scrollTop: $( $(this).attr('href') ).offset().top 
+  }, 600);
   
-// });
+});
 
 $(_=> {
-//  pingDyno();
+ pingDyno();
 });

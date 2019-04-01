@@ -1,131 +1,264 @@
+main {
+  margin-top: 5rem;
+}
+
 body { 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #2a2c2d;
-  background-color: #f2f4f5; 
   margin-top: 0px;
+  /* background-color: #FFEDDD; */
   overflow-x: hidden;
 }
-
-/* .image {width: 800px;} */
 
 .navbar {
   position: fixed;
   width: 100%;
-  /* background-color: #181818; */
   background-color: #1A2330;
-  /* background-color: #3C3C3C; */
-  z-index: 0;
+  height: 6rem;
+  z-index: 1;
 }
 
-.row {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #1A2330;
-  /* color: #525A52; */
+.bg-nav {
+  background-color: #1A2330;
 }
-
-.row-grey {
-  background-color: lightgrey;
-  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-  padding: 65px 10px;
-}
-
-/* .row {
-  margin-right: -15px;
-  margin-left: -15px;
-} */
-
 
 .bg-gray {
   background-color: #C9D3CB;
 }
 
+.row {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1A2330;
+}
+
+.col-50 {
+  padding: 1%;
+  float: left;
+  width: 50%;
+}
+
+.col-40 {
+  padding: 1%;
+  float: left;
+  width: 40%;
+}
+
+.col-60 {
+  padding: 1%;
+  float: left;
+  width: 60%;
+}
+
+
+.clr {
+  clear: left;
+}
+
+.mgt-5 {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.mgt-3 {
+  margin-top: 3rem;
+}
+
+.mgl-3 {
+  margin-left:2rem;
+}
+.title{
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: -0.03rem
+}
+
+.title2{
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: -0.03rem
+}
+
+.font-m {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.02rem;
+}
+
+/* screenshot image */
+.sample {
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.em {
+  /* font-style: oblique;
+  font-weight: 500; */
+  background-color: #E5E5E5;
+}
+
+.it {
+  font-style: oblique;
+}
+
+ul.list li {
+  list-style: none;
+  text-indent: -2rem;
+  margin-top: 1.5rem;
+  line-height: 3rem;
+  margin-left: 0rem;
+}
+
+ul.list li::before {
+    color: #006b6e;  
+    content: ">"; 
+    /* font-size: 1em;  */
+    padding-right: 0.4em; 
+    /* position: relative; */
+    top: 0em; 
+}
+
+img {
+  width: 100%;
+}
+
+.row-proj {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: light gray;
+}
+
 .name {
+  margin-top: 4px;
   display: inline-block;
   font-size: 2rem;
   font-weight: 300;
-  margin-top: 10px;
-  color: white;
 }
 
-.navbar .links {
+.navbar ul {
   float: right;
-  font-family: 'Roboto', sans-serif;
-  color: #838994;
-  font-size: 16px;
-  margin-top: 25px;
+  margin-top: 20px;
+  font-weight: 300;
 }
 
-.navbar .links li {
+.navbar li {
   display: inline-block;
   margin-left: 30px;
-  font-family: 'Roboto', sans-serif;
-  color: white;
 }
+
+
 
 .white {
   color: #FFF;
 }
+.blue {
+  color: #0272b6;
+}
 
-/* .navbar > .content {
-  width: 970px;
-  height: 70px;
-  margin: 0 auto;
-} */
-/* .contact-info {width: 970px; height: 70px; color: white; margin: 0 auto;} */
-/* p {margin-top: 10px;} */
-/* .info{padding: 0px;} */
+.btn-blue {
+  font-size: 1.5rem;
+  min-width: 11.2rem;
+  line-height: 2rem;
+  font-weight: 300;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2rem;
+  padding: 10px;
+  border-radius: 24px;
+  color: #fff;
+  background-color: #0272b6
+}
 
+.btn-blue:hover, 
+.btn-blue:active {
+  background-color: #00619A;
+}
 
-img {display: block;}
+footer {
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #FFF;
+  background-color: #1A2330;
+  text-align: center;
+  letter-spacing: 0.01rem;
+  /* height: 6rem; */
+  line-height: 6rem;
+}
 
-/* nav div ul li:hover {
-  cursor: pointer;
-} */
-
-#footer {background-color: black; width: 100%; height: 40px; padding: 0px; margin-top: 100px;}
-
-/* .smallerText{font-size: 0.75em; margin-top: 5px;}
-ul {padding: 0;}
-
-.center {margin: 0 auto; text-align: center; color: white; list-style-type: none; padding-top:10px;} */
-
-/* a, a.jumper {color: white;
-} */
-
-/* .things {font-size: 30px; margin-top: 20px;}
-.things>ul {padding: 0;}
-.things>ul>li {display: inline-block; text-align: center;}
-a:visited {
-  color: inherit;
-} */
-
-/* .piece {margin-bottom: 40px; font-size: 16px;}
-.linkColor {color: black;}
-#portfolio {padding-top: 100px; width: 970px; margin: 0 auto;  text-align: center;}
-#resume, #bio {padding-top:50px; margin:0 auto; text-align: center;}
-#bio {width:970px; }
-img {border: 2px #c5c5c5 solid; margin: 0 auto;} */
 
 @media only screen and (max-width: 640px) {
-  /* .image {
-    display: block;
-    margin-bottom: 10px;
+  .navbar li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .col-50,
+  .col-40,
+  .col-60 {
+    padding: 2%;
+    float: none;
     width: 100%;
   }
-  #bio, #resume {width: 100%;}
-  img {margin: 0 auto; width: 100%;}
-  #portfolio {
-    width: 100%;
-    margin-top: 50px;
+
+  .main-img {
+    width: 80%;
+    margin-left: 10%;
   }
-  ul.code>li {display: block;} */
-/*  ul.links {padding: 0; text-align: center; margin-left: auto; margin-right: auto; margin-bottom: 10px;}*/
-  /* div.name {text-align: center; display: block; font-size: 20px;} */
-/*  .navbar .links {float: none; margin-top: 5px;}*/
- /* .navbar .links li {text-align: right; margin: 0 auto; display: block; padding: 5px; border: 1px solid white;}*/
-  /* .padding {padding-top: 20px;} */
+  .title,
+  .title2{
+    margin-left:4%;
+    font-size: 3rem;
+  }
+
+  .btn-blue {
+    font-size: 1.4rem;
+    min-width: 10rem;
+    line-height: 2rem;
+    font-weight: 300;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #0272b6
+  }
+  .font-m {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-left: 2%;
+    margin-right: 1%;
+    letter-spacing: 0.01rem;
+  }
+
+  .mgt-5 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  
+  .mgt-3 {
+    margin-top: 2rem;
+  }
+
+  ul.list li {
+    list-style: none;
+    text-indent: -2rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    margin-left: 0rem;
+    margin-right: 1%;
+  }
+  
+  
+footer {
+  line-height: 3rem;
+}
+
+    
 }

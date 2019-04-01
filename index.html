@@ -11,22 +11,22 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet" type="text/css" />
   </head>
-  <body class="container-fluid">
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 
       <div class="container row">
-        <div class="navbar-header">
+          <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <div class="name navbar-brand">
-            <a id="slide" target="_blank" href="https://github.com/dubrawr" style="color: white;">Anthony Kim</a>
+            <a id="slide" target="_blank" href="https://github.com/anthonyphoto" style="color: white;">Anthony Kim</a>
           </div>
         </div>
                 
-        <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="bg-nav collapse navbar-collapse" id="myNavbar">
           <ul class="links">
               <li><a class="jumper" href="#about" style="color: #C8F7C5;">About</a></li>
               <li><a class="jumper" href="#portfolio" style="color: #DDA0DD;">Portfolio</a></li>
@@ -37,107 +37,207 @@
       </div>
     </nav>
 
+    <main>
+      <div class='bg-gray'>
 
-    <main class='main_bg'>
-      <div class='row'>
-        In construction...<br/>
-        <ul>
-          <li>
-              <a href="https://modern-headshots.herokuapp.com/" target="_blank">Modern Headshots</a><br/>
-              <ul>
-                <li>Front-end: React/ Redux</li>
-                <li>Back-end: Node.JS/ Express</li>
-                <li>Database: MongoDB/ Mongoose</li>
-                <li>Testing: Enzyme/ Jest/ Mocha/ Chai/ Travis CI</li>
-              </ul>
-          </li>
+        <div class='row mgt-5' id='about'>
+          <div class='col-50 font-m'>
+            <img class='main-img' src='./img/main.png' alt='anthony' />
+          </div>
+          <div class='col-50 font-m'>
+            <p class='title mgt-3'>Hi, I am Anthony.</p>
+            <p class='font-m mgt-3 mgl-3'>
+            I am a Full-stack developer candidate highly skilled in mobile-first responsive design and test-driven development, with an emphasis in React and Node.  I love to implement technology solutions to complex enterprise problems by utilizing strong Computer Science skills and agile methodologies.
+          </p>
 
-          <li>
-              <a href="https://applicant-tracker-react.herokuapp.com/" target="_blank">Applicant Tracker</a><br/>
-              <ul>
-                <li>Front-end: React/ React Hooks/ Context API</li>
-                <li>Back-end: Node.JS/ Express</li>
-                <li>Database: MongoDB/ Mongoose</li>
-                <li>Testing: Mocha/ Chai/ Travis CI</li>
-              </ul>
-          </li>
-
-          <li>
-              <a href="https://anthonyphoto.github.io/Image-LookUp/" target="_blank">Image-Lookup</a><br/>
-              <ul>
-                  <li>3rd Party API: 
-                      <ul>
-                        <li>Google Map API</li>
-                        <li>Weather API</li>
-                      </ul>
-                  </li>
-                  <li>HTML/ CSS/ JS/ jQuery</li>
-              </ul>
-          </li>
-
-          <li>
-              <a href="https://anthonyphoto.github.io/Photography-Quiz/" target="_blank">Photography Quiz</a><br/>
-              <ul>
-                  <li>HTML/ CSS/ JS/ jQuery</li>
-              </ul>
-          </li>
-          
-        </ul>
-
-      </div>
-      <div class='row row-gray'>
-          <ul>
+            <ul class='list'>
               <li>
-                  <a href="https://modern-headshots.herokuapp.com/" target="_blank">Modern Headshots</a><br/>
-                  <ul>
-                    <li>Front-end: React/ Redux</li>
-                    <li>Back-end: Node.JS/ Express</li>
-                    <li>Database: MongoDB/ Mongoose</li>
-                    <li>Testing: Enzyme/ Jest/ Mocha/ Chai/ Travis CI</li>
-                  </ul>
+                  Front-end:	React, Redux, React Hooks, Context API, Enzyme, Java Script, HTML5, CSS3, jQuery
               </li>
-    
               <li>
-                  <a href="https://applicant-tracker-react.herokuapp.com/" target="_blank">Applicant Tracker</a><br/>
-                  <ul>
-                    <li>Front-end: React/ React Hooks/ Context API</li>
-                    <li>Back-end: Node.JS/ Express</li>
-                    <li>Database: MongoDB/ Mongoose</li>
-                    <li>Testing: Mocha/ Chai/ Travis CI</li>
-                  </ul>
+                  Back-end:		Node.js, Mongo DB, PostgreSQL, Oracle, Mocha & Chai, Passport, Rest API
               </li>
-    
               <li>
-                  <a href="https://anthonyphoto.github.io/Image-LookUp/" target="_blank">Image-Lookup</a><br/>
-                  <ul>
-                      <li>3rd Party API: 
-                          <ul>
-                            <li>Google Map API</li>
-                            <li>Weather API</li>
-                          </ul>
-                      </li>
-                      <li>HTML/ CSS/ JS/ jQuery</li>
-                  </ul>
+                  Dev Tools:		Git, GitHub, Heroku, Swagger, Travis CI, Jira, Confluence, Rally, Trello, ERD, IBM Rational doors
               </li>
-    
               <li>
-                  <a href="https://anthonyphoto.github.io/Photography-Quiz/" target="_blank">Photography Quiz</a><br/>
-                  <ul>
-                      <li>HTML/ CSS/ JS/ jQuery</li>
-                  </ul>
+                  Other Programming:  C/C++, Java, JSP, PERL, Shell Scripts
               </li>
-              
+
             </ul>
+          </div>
+        </div>  
+        <div class='clr'></div>
       </div>
+
+      <div class='row mgt-5' id='portfolio'>
+        <p class='title2 blue'>> Recent Web Projects</p>
+        <p class='font-m'>
+          Below are a few of the projects I have created recently. I developed each one from scratch, from frontend UI/UX design to backend API and database work.        
+        </p>
+      </div>
+      
+      <div class='row'>
+        <p class='title blue' id='modern-headshot'>Modern Headshot</p>
+          <div class='col-40 font-m'>
+            <p class='font-m'>
+                This app has an online reservation feature using <span class="em">React-Redux</span>, which mimics Outlook calendar experience with graphical user interface. </p>
+                <p class="font-m"> <span class="em">React's Virtual DOM</span> enables seamless page updates upon users real-time activities (i.e., timezone update, content update on mouse-hover, real-time input validation/normalization)</p>
+                <p class="font-m">
+                On "My Account" menu, the logged users can view or cancel their reservations or can access the outcome from the previous events with an individual routed page.
+            </p>
+            <div class='mgt-3'>
+              <b>Used Technologies:</b><br/>
+              <span class="em">React-Redux</span>, 
+              <span class="em">Redux-thunk</span>, 
+              <span class="em">Redux-form</span>, 
+              <span class="em">React-router-dome</span>, 
+              <span class="em">Node.js</span>, 
+              <span class="em">Express</span>, 
+              <span class="em">Mongo DB</span>, 
+              <span class="em">JWT</span>, 
+              <span class="em">Passport</span>, 
+              <span class="em">Rest API</span>,
+              <span class="em">Enzyme</span>,
+              <span class="em">Mocha</span>,
+              <span class="em">Chai</span>,
+              <span class="em">Travis CI</span>
+            </div>
+            <div class='mgt-3'>
+              <a href="https://modern-headshots.herokuapp.com/" target="_blank">
+                <div class='btn-blue'>
+                  Live Demo
+                </div>
+              </a>
+              <a href="https://github.com/anthonyphoto/Modern-Headshots" target="_blank">
+                  <div class='btn-blue'>
+                    Client Repo
+                  </div>
+                </a>
+                <a href="https://github.com/anthonyphoto/Modern-Headshots-Server" target="_blank">
+                  <div class='btn-blue'>
+                    Server Repo
+                  </div>
+              </a>
+            </div>
+            <!-- <ul class='list'>
+              <li>
+                  Front-end:	React-Redux, Redux-thunk, Redux-form, React-router-dom
+              </li>
+              <li>
+                  Back-end:		Node.js, Mongo DB, Passport, Rest API
+              </li>
+              <li>
+                  Testing: Enzyme, Mocha & Chai, Travis CI
+              </li>
+            </ul> -->
+          </div>
+          <div class='col-60'>
+            <img class='sample' src='./img/modern-headshot.jpg' alt='modern headshot' />
+          </div>
+          <div class='clr'></div>
+          <hr>
+        </div>  
+
+        
+        <div class='row'>
+          <p class='title mgt-3 blue' id='applicant-tracker'>Applicant-Tracker</p>
+
+          <div class='col-60'>
+            <img class='sample' src='./img/applicant-tracker.jpg' alt='modern headshot' />
+          </div>
+          <div class='col-40 font-m'>
+              <p class='font-m'>
+                  This app is a MVP version of HR tool, which allows HR or recruiters to track their applicants status. <br/>
+                  The latest React release, <span class='em'>React Hooks</span> are used for state management, and <span class="em"> React context API</span> is used for shared data management among components.</p>
+                  <p class="font-m">
+                  
+                  All persistent data are stored in <span class="em">MongoDB</span> via <span class="em">REST API</span>, and users can view or edit data based upon their permission on <span class="em">JWT</span> (Role-based access: Admin, Recruiter, and Normal user)
+              </p>
+              <div class='mgt-3'>
+                  <b>Used Technologies:</b><br/>
+                <span class="em">React-Hooks</span>, 
+                <span class="em">React-Context-API</span>, 
+                <span class="em">React-router-dome</span>, 
+                <span class="em">Node.js</span>, 
+                <span class="em">Express</span>, 
+                <span class="em">Mongo DB</span>, 
+                <span class="em">JWT</span>, 
+                <span class="em">Passport</span>, 
+                <span class="em">Rest API</span>,
+                <span class="em">Mocha</span>,
+                <span class="em">Chai</span>,
+                <span class="em">Travis CI</span>
+              </div>
+              <div class='mgt-3'>
+                  <a href="https://applicant-tracker-react.herokuapp.com/" target="_blank">
+                    <div class='btn-blue'>
+                      Live Demo
+                    </div>
+                  </a>
+                  <a href="https://github.com/anthonyphoto/applicant-tracker-react" target="_blank">
+                      <div class='btn-blue'>
+                        Client Repo
+                      </div>
+                    </a>
+                    <a href="https://github.com/anthonyphoto/Applicant-Tracker" target="_blank">
+                      <div class='btn-blue'>
+                        Server Repo
+                      </div>
+                  </a>
+                </div>
+    
+        </div>  
+        
+        <div class='clr'></div>
+  
+        <hr>
+
+        <div class='row mgt-3'>
+          <p class='title mgt-3 blue' id='image-lookup'>Image-Lookup</p>
+          <div class='col-40 font-m mgt-3'>
+            <p class='font-m'>
+              This app allows mobile phone or tablet users to analyze their local images by simply uploading them to the browser. </p>
+            <p class="font-m">
+              The user can access various file information such as file name, size, camera setting, date & time, editing software, Google map location, and weather status of where the photo was taken.
+            </p>
+            <div class='mgt-3'>
+              <b>Used Technologies:</b><br/>
+              <span class="em">jQuery</span>, 
+              <span class="em">HTML5</span>, 
+              <span class="em">CSS3</span>, 
+              <span class="em">Java Script</span>, 
+              <span class="em">Exif Library</span>,
+              <span class="em">Google MAP API</span>, 
+              <span class="em">Weather API</span>
+            </div>
+            <div class='mgt-3'>
+                <a href="https://anthonyphoto.github.io/Image-LookUp/" target="_blank">
+                  <div class='btn-blue'>
+                    Live Demo
+                  </div>
+                </a>
+                <a href="https://github.com/anthonyphoto/Image-LookUp" target="_blank">
+                  <div class='btn-blue'>
+                    Code Repo
+                  </div>
+                </a>
+              </div>
+  
+          </div>
+          <div class='col-60'>
+            <img class='sample' src='./img/image-lookup.jpg' alt='modern headshot' />
+          </div>
+  
+        </div>  
+          <div class='clr mgt-5'></div>
+  
 
     </main>
-    <footer id="footer">
-  
-        <ul class="center">
-          <li><a href="#">I love receiving mail at: deborah.tsao@gmail.com</a></li>
-        </ul>
-      
+    <footer>
+        Questions? I love receiving mail at: <a style="color: #C5EFF7;"; href="mailto:anthony011@gmail.com">anthony011@gmail.com</a>
     </footer>
+  
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -145,4 +245,5 @@
     <script type="text/javascript" src="./js/index.js"></script>
 
   </body>
+
 </html>
